@@ -260,3 +260,154 @@ project
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+.head{
+    font-size:30px;
+    color:white;
+   margin-top:20px;
+   margin-left:10px;
+    left:25px;   
+}
+.navv{
+    display:flex;
+ display:inline-block;
+ margin-left:70%  
+}
+.sym{
+    justify-content:space-between;
+    margin-top:20px;
+    margin:0 30px;
+   
+}
+.headerr{
+ width:100%;
+ position:sticky;
+ top:0px;
+ z-index: 100;
+ border: 1px solid whitesmoke;
+ box-shadow:0 0 25px greenyellow;
+ 
+}
+.carousal{
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+}
+.center{
+    align-content: flex-end;
+   
+}
+.deitles{
+    height:300px;
+    width:400px;
+    position: absolute;
+    top:100px;
+    left:55%;
+    text-transform:capitalize;
+}
+.price{
+    font-size: 25px;
+    color: gray;
+}
+.disscount{
+    color: blue;
+    font-size: 20px;     
+}
+.fetureproduct{
+    text-align: center;
+    margin-top: 150PX;
+    position: sticky;
+    top:100px;
+    /* z-index:200; */
+}
+.fetureproduct:hover{
+    color:orangered;
+}
+.fetured{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    margin-top:50px;
+}
+.fetured img{
+    margin-top:10px;
+    margin:10px;
+    margin-top:50px;   
+}
+.fetured img:hover{
+    transform:scale(1.1)
+}
+/* image transiation size  on feture product list */
+.one{
+    height:150px;
+    width:150px;
+       margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s;
+   
+}
+.two{
+    height:250px;
+    width:250px;
+    margin-top:50px;
+    margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s; 
+}
+.three{
+    height:350px;
+    width:350px;
+    margin-top:50px;
+    margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s;   
+    /*  */
+}
+.sports{
+    margin-top:10px;
+    text-align: center;
+}
+.bord{
+    text-align: center;    
+}
+.dots {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.dots svg:hover{
+    color: orangered;
+}
+.topproductlist{
+   text-decoration: none;
+   color: gray;
+   text-transform: capitalize;
+   display: flex;
+   justify-content:space-between;
+   justify-content: center;
+   margin-top:60px;
+   margin-bottom: 60px;  
+   
+}
+.topproductlistanchor{
+    align-content: center;
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+.topproductlistanchor:hover{
+    color: orange;
+    font-family: sans-serif;  
+}
