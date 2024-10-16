@@ -1,0 +1,397 @@
+
+
+body{
+    background-color: rgb(27, 26, 26);
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.head{
+    font-size:30px;
+    color:white;
+    margin-top: 0px;
+    position: sticky;
+    top:0px;
+    z-index: 300;
+    padding: 20px;
+
+}
+.head:hover{
+    color: orangered;
+  
+
+}
+.navv{
+    display:flex;
+ display:inline-block;
+ margin-left:60%;
+ 
+
+}
+.navv a{
+    justify-content: space-between;
+   color: cyan;
+    margin-right:60px;
+
+}
+.search:hover::after{
+    content:"Search";
+    font-size: 15px;
+    color: blue;
+    bottom:5px;
+    position: absolute;
+    border:1px solid white;
+    border-radius: 5px;
+
+}
+.cart:hover::after{
+    content: "Cart";
+    font-size: 15px;
+    border:2px solid green;
+    border-radius: 5px;
+    position: absolute;
+    top:50px;
+    border-bottom: 10px;
+
+}
+
+
+.sym{
+    justify-content:space-between;
+margin-right:15px;
+color:cyan;
+ margin:0px 40px;
+   
+}
+.headerr{
+ width:100%;
+ position:sticky;
+ top:0px;
+ z-index: 100;
+ padding: 15px;
+}
+.rounded{
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+}
+.center{
+    align-content: flex-end;
+   
+}
+.deitles{
+    height:300px;
+    width:400px;
+    position: absolute;
+    top:200px;
+    left:30%;
+    text-transform:capitalize;
+}
+.price{
+    font-size: 25px;
+    color: gray;
+}
+.disscount{
+    color: white;
+    font-size: 25px;     
+}
+/*  */
+.fetureproduct{
+    text-align: center;
+    margin-top: 150PX;
+  
+    
+}
+.fetureproduct:hover{
+    color:orangered;
+}
+.fetured{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    margin-top:50px;
+}
+.fetured img{
+    margin-top:10px;
+    margin:10px;
+    margin-top:50px;   
+}
+.fetured img:hover{
+    transform:scale(1.1)
+}
+/* image transiation size  on feture product list */
+.one{
+    height:150px;
+    width:150px;
+       margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s;
+    animation-name: one;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+}
+.two{
+    height:250px;
+    width:250px;
+    margin-top:50px;
+    margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s; 
+}
+.three{
+    height:350px;
+    width:350px;
+    margin-top:50px;
+    margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s;   
+
+}
+.four{
+    height:250px;
+    width:250px;
+    margin-top:50px;
+    margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s; 
+
+}
+
+.five{
+    height:150px;
+    width:150px;
+       margin:10px;
+    margin-top:50px;
+    transition-property:all;
+    transition:3s;
+   
+}
+/*  */
+.sports{
+    margin-top:10px;
+    text-align: center;
+}
+.bord{
+    text-align: center;    
+}
+.dots {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+h3 svg:hover{
+    color: orangered;
+}
+.topproductlist{
+   text-decoration: none;
+   color: gray;
+   text-transform: capitalize;
+   display: flex;
+   justify-content:space-between;
+   justify-content: center;
+   margin-top:60px;
+   margin-bottom: 60px;  
+   
+}
+.topproductlistanchor{
+    align-content: center;
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    
+}
+.topproductlistanchor:hover{
+    color: orange;
+    font-family: sans-serif;  
+}
+.cardbackground{
+    background-color: black;
+}
+.griditems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.boatitems{
+    border:1px whitesmoke solid;
+    margin:10px;
+    font-size: small;
+    height: 550px;
+    border-radius:10px;
+    
+    
+}
+.gridimageone{
+    padding: 10px;
+    height:50%;
+    align-items: center;
+    align-content: center;
+    transition-property: all;
+    transition-duration: 3s;
+
+}
+.gridimageone:hover{
+    transform: scale(1.1);
+}
+.starsymbol{
+    border-radius: 25px;
+    color:orangered;
+    margin-left: 15px;
+    
+   
+    
+}
+.amounttopborder{
+    border-top:2px solid gray;
+    margin-right:15px;
+    margin-left: 15px;
+}
+.cardsgrid{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin: 10px;
+    text-transform: capitalize;.
+    margin-bottom: 60px;
+}
+.gridpractise{
+    border:2px solid white;
+    height:550px;
+   margin: 10px;
+    border-radius: 5px;   
+    align-items: center;
+    
+}
+.gridpractise1{
+    height:50%;
+    transition-property: all;
+    transition-duration: 3s;
+
+}
+.gridpractise1:hover{
+    transform: scale(1.2);
+}
+.left15px{
+    margin-left: 15px;
+}
+.gridpractise{
+    text-align: center;
+    align-content: center;
+}
+.center60px{
+    text-align:center;
+    margin-top:50px;
+    margin-top:50px;
+}
+.center60px:hover{
+    color: orangered;
+}
+.ouradavantages{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    text-transform: capitalize;
+    font-size:larger;
+    margin-top:60px;
+}
+.darkcolorfont{
+    font-size: small;
+    text-transform:capitalize;
+
+}
+.footer{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    justify-content:space-between;
+    margin-top:60px;
+    text-transform: capitalize;
+    background-color: black;
+}
+.footerpart{
+    margin: 10px;
+}
+li{
+list-style:none ;
+color: darkgrey;
+margin:3px;
+}
+li:hover{
+    color:orange;
+}
+h3:hover{
+    color:orangered;
+
+}
+.footerpart{
+
+    display: flex;
+    display:inline-block;
+    margin-right:50%;
+    
+}
+.footera{
+   margin: 20px 30px ;
+   color: cyan;
+  
+}
+.footera:hover{
+    transform:scale(1.3);
+
+}
+.footermain{
+    border-top:2px solid white;
+    background-color: black;
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:orange;
+}
+/*  */
+.borderrinloginsignup{
+    border:3px solid gray;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding: 20px;
+    display: none;
+
+}
+.borderrinloginsignup:hover{
+    border:3px solid gray;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding: 20px;
+    
+
+
+}
+.borderspannn{
+    border:2px solid white;
+    width:120px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#pleselogintop{
+    border-top:2px solid white;
+    padding-top: 10px;
+}
